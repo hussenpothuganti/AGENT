@@ -1,0 +1,43 @@
+{
+  "name": "zyeon-ai-realtime",
+  "version": "1.0.0",
+  "description": "ZYEON AI - Real-time Voice Assistant with React frontend and Flask backend",
+  "main": "backend/src/main.py",
+  "scripts": {
+    "install": "cd frontend && npm install && cd ../backend && pip install -r requirements.txt",
+    "build": "cd frontend && npm run build && cp -r dist/* ../backend/src/static/",
+    "start": "cd backend && python src/main.py",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && source venv/bin/activate && python src/main.py",
+    "deploy": "./deploy.sh",
+    "test": "cd backend && python -m pytest tests/ || echo 'No tests found'",
+    "clean": "rm -rf frontend/dist frontend/node_modules backend/src/static/* backend/venv"
+  },
+  "keywords": [
+    "ai",
+    "voice-assistant",
+    "react",
+    "flask",
+    "openai",
+    "mongodb",
+    "socketio",
+    "real-time",
+    "speech-recognition",
+    "text-to-speech"
+  ],
+  "author": "ZYEON AI Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/zyeon-ai-realtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/zyeon-ai-realtime/issues"
+  },
+  "homepage": "https://github.com/your-username/zyeon-ai-realtime#readme"
+}
+

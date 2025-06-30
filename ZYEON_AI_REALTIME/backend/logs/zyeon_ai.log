@@ -1,0 +1,37 @@
+2025-06-30 09:02:54,775 - flask_cors.core - WARNING - serialize_options:361 - Unknown option passed to Flask-CORS: cors_allowed_origins
+2025-06-30 09:02:54,775 - flask_cors.core - WARNING - serialize_options:361 - Unknown option passed to Flask-CORS: cors_allowed_origins
+2025-06-30 09:02:54,794 - __main__ - INFO - <module>:665 - Initializing ZYEON AI Enhanced...
+2025-06-30 09:02:54,829 - models.conversation - INFO - _create_indexes:45 - Database indexes created successfully
+2025-06-30 09:02:54,829 - __main__ - INFO - initialize_services:115 - MongoDB connected successfully
+2025-06-30 09:02:54,830 - __main__ - ERROR - initialize_services:143 - Error initializing services: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-06-30 09:02:54,830 - __main__ - INFO - <module>:669 - MongoDB URI: Configured
+2025-06-30 09:02:54,830 - __main__ - INFO - <module>:670 - OpenAI API Key: Configured
+2025-06-30 09:02:54,830 - __main__ - INFO - <module>:671 - Environment: development
+2025-06-30 09:02:54,830 - __main__ - INFO - <module>:677 - Starting ZYEON AI Enhanced on port 5000
+2025-06-30 09:02:54,831 - werkzeug - INFO - _log:187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://169.254.0.21:5000
+2025-06-30 09:02:54,832 - werkzeug - INFO - _log:187 - [33mPress CTRL+C to quit[0m
+2025-06-30 09:03:53,392 - flask_cors.core - WARNING - serialize_options:361 - Unknown option passed to Flask-CORS: cors_allowed_origins
+2025-06-30 09:03:53,392 - flask_cors.core - WARNING - serialize_options:361 - Unknown option passed to Flask-CORS: cors_allowed_origins
+2025-06-30 09:03:53,408 - __main__ - INFO - <module>:665 - Initializing ZYEON AI Enhanced...
+2025-06-30 09:04:23,650 - models.conversation - ERROR - _create_indexes:47 - Error creating indexes: SSL handshake failed: ac-gq5sqvd-shard-00-00.j3gddli.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:992),SSL handshake failed: ac-gq5sqvd-shard-00-02.j3gddli.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:992),SSL handshake failed: ac-gq5sqvd-shard-00-01.j3gddli.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:992), Timeout: 30s, Topology Description: <TopologyDescription id: 68628b391ddcb7cc7d5e8ebd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-gq5sqvd-shard-00-00.j3gddli.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-gq5sqvd-shard-00-00.j3gddli.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:992)')>, <ServerDescription ('ac-gq5sqvd-shard-00-01.j3gddli.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-gq5sqvd-shard-00-01.j3gddli.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:992)')>, <ServerDescription ('ac-gq5sqvd-shard-00-02.j3gddli.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-gq5sqvd-shard-00-02.j3gddli.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:992)')>]>
+2025-06-30 09:04:23,650 - __main__ - INFO - initialize_services:115 - MongoDB connected successfully
+2025-06-30 09:04:23,697 - services.ai_service - INFO - __init__:87 - ZYEON AI Service initialized with model: gpt-3.5-turbo
+2025-06-30 09:04:23,697 - __main__ - INFO - initialize_services:123 - AI Service initialized successfully
+2025-06-30 09:04:23,706 - services.voice_service - WARNING - _initialize_tts:76 - Text-to-speech initialization failed: libespeak.so.1: cannot open shared object file: No such file or directory
+2025-06-30 09:04:23,846 - services.voice_service - WARNING - _initialize_speech_recognition:100 - Speech recognition initialization failed: No Default Input Device Available
+2025-06-30 09:04:23,846 - __main__ - INFO - initialize_services:140 - Voice Service initialized successfully
+2025-06-30 09:04:23,846 - __main__ - INFO - <module>:669 - MongoDB URI: Configured
+2025-06-30 09:04:23,846 - __main__ - INFO - <module>:670 - OpenAI API Key: Configured
+2025-06-30 09:04:23,846 - __main__ - INFO - <module>:671 - Environment: development
+2025-06-30 09:04:23,846 - __main__ - INFO - <module>:677 - Starting ZYEON AI Enhanced on port 5000
+2025-06-30 09:04:27,758 - werkzeug - INFO - _log:187 - 10.221.187.1 - - [30/Jun/2025 09:04:27] "HEAD / HTTP/1.1" 200 -
+2025-06-30 09:04:27,765 - werkzeug - INFO - _log:187 - 10.221.187.1 - - [30/Jun/2025 09:04:27] "GET / HTTP/1.1" 200 -
+2025-06-30 09:04:52,735 - werkzeug - INFO - _log:187 - 10.221.187.1 - - [30/Jun/2025 09:04:52] "GET / HTTP/1.1" 200 -
+2025-06-30 09:04:53,047 - werkzeug - INFO - _log:187 - 10.221.187.1 - - [30/Jun/2025 09:04:53] "GET /assets/index-Dv3UKYvq.js HTTP/1.1" 200 -
+2025-06-30 09:04:53,047 - werkzeug - INFO - _log:187 - 10.221.187.1 - - [30/Jun/2025 09:04:53] "GET /assets/index-6bh2rfXy.css HTTP/1.1" 200 -
+2025-06-30 09:04:54,844 - werkzeug - INFO - _log:187 - 10.221.187.1 - - [30/Jun/2025 09:04:54] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-30 09:04:55,555 - models.conversation - INFO - create_session:233 - Session created with ID: 68628b77f726ca8f389d5f4e
+2025-06-30 09:04:55,555 - __main__ - INFO - handle_connect:519 - Client connected: 0VGBAg-HZCNtXgxzAAAB (User: user_e4abe1ab)

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: zyeon-ai-enhanced
+    env: python
+    buildCommand: "./deploy.sh build"
+    startCommand: "gunicorn --bind 0.0.0.0:$PORT --workers 4 --worker-class eventlet src.main:app"
+    healthCheckPath: /api/health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: FLASK_ENV
+        value: production
+    autoDeploy: true
+    pullRequestPreviewsEnabled: true
+
